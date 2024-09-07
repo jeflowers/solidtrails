@@ -32,7 +32,9 @@ void Journal::save(const string& filename)
 
 // persistence is another concern out side of the Journal
 struct PersistenceManager{
+    // where Journal is loaded and saved
     static void save(const Journal& j, const string& filename)
+
     {
         ofstream ofs(filename);
         for(auto& s : j.entries)
