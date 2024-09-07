@@ -1,0 +1,6 @@
+Best practive is to make sure a class is designed to have a primary responsibility, and should not take on other responsibilities.
+
+Example:
+The purpose of a compass is to help with navigation by indicating direction.
+Based on a direction North, South, East, West a person can determine their position, or where there heading 
+relative to the North, South, East or West direction.
