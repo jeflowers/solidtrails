@@ -7,7 +7,7 @@ Details should depend on abstractions
 What do we mean by abstraction?
 When we talk about abstraction we are talking about interfaces or base classes.
 
-The code in the ConcreteToTemplate.cpp, AbstractBassIntro.cpp, and TemplateIntro.cpp are examples that evolves from a concrete class to a template-based solution using the USMC Tactical Decision Game (TDG) scenario. We'll go through phases, starting with a basic concrete implementation and gradually refactoring to a more flexible template-based design.
+The code in the ConcreteBase.cpp, BaseToAbstract.cpp, and AbstractToTemplate.cpp are examples that evolves from a concrete class to a template-based solution using the USMC Tactical Decision Game (TDG) scenario. We'll go through phases, starting with a basic concrete implementation and gradually refactoring to a more flexible template-based design.
 
 ## Evolution of this code in the context of the USMC Tactical Decision Game scenario:
 
